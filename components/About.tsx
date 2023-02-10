@@ -1,25 +1,27 @@
+import Link from 'next/link';
+
 const About = () => {
   return (
-    <div className="mt-4 pb-4">
-      <h2 className="text-2xl font-semibold underline underline-offset-4 text-accent font-title">
-        about;
+    <div className="mt-8 ml-6 pb-4">
+      <h2 className="text-4xl font-semibold text-cyan-100 font-title">
+        i'm currently
       </h2>
+      <ul className="mt-4 pl-8 text-2xl text-md text-accent-secondary list-disc">
+        <li className="pb-3">learning lots of math</li>
+        <li className="pb-3">
+          getting better at competitive programming (
+          <Link
+            href="https://codeforces.com/profile/ameywtf"
+            className="text-amber-200 hover:text-accent focus:text-accent"
+          >
+            <span>codeforces</span>
+          </Link>
+          )
+        </li>
 
-      <p className="mt-2 text-md text-accent-secondary max-w-3xl">
-        living in the moment and building cool stuff as i get ideas.
-        <br /> <br />
-        all i do is research, make weird stuff, and write.
-        <br /> <br />
-        you&apos;ll mostly find me learning smth, hacking on cool projects, or
-        automating stuff for hours.
-      </p>
-
-      <h4 className="mt-4 text-lg font-semibold text-accent font-title">now</h4>
-
-      <ul className="mt-2 text-md text-accent-secondary list-disc">
-        <li>attempting to graduate highschool while remaining unfazed</li>
-        <li>exploring low-level systems and networking</li>
-        <li>reading books, writing as i get time and gaining clarity.</li>
+        <li className="pb-3">
+          learning about and building noob crypto/ai projects
+        </li>
       </ul>
     </div>
   );

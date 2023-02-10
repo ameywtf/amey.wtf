@@ -27,7 +27,7 @@ const Home = () => {
 
       <div className="mt-6 ml-4">
         <h1 className="text-7xl font-bold text-accent font-title">
-          sup nerd, it's amey<span className="text-gray-500">#2309</span>
+          sup nerd, it&apos;s amey<span className="text-gray-500">#2309</span>
         </h1>
       </div>
 

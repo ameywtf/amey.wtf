@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="mt-8 ml-6 pb-4">
       <h2 className="text-4xl font-semibold text-cyan-100 font-title">
-        i'm currently
+        i&apos;m currently
       </h2>
       <ul className="mt-4 pl-8 text-2xl text-md text-accent-secondary list-disc">
         <li className="pb-3">learning lots of math</li>

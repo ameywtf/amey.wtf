@@ -7,7 +7,7 @@ const About = () => {
         i&apos;m currently
       </h2>
       <ul className="mt-4 pl-8 text-2xl text-md text-accent-secondary list-disc">
-        <li className="pb-3">learning lots of math</li>
+        <li className="pb-3">learning math</li>
         <li className="pb-3">
           getting better at competitive programming (
           <Link

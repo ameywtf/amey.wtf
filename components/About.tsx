@@ -10,12 +10,13 @@ const About = () => {
         <li className="pb-3">learning math</li>
         <li className="pb-3">
           getting better at competitive programming (
-          <Link
+          <a
+            target="_blank"
             href="https://codeforces.com/profile/ameywtf"
             className="text-amber-200 hover:text-accent focus:text-accent"
           >
             <span>codeforces</span>
-          </Link>
+          </a>
           )
         </li>
 

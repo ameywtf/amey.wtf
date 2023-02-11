@@ -12,6 +12,7 @@ const About = () => {
           getting better at competitive programming (
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://codeforces.com/profile/ameywtf"
             className="text-amber-200 hover:text-accent focus:text-accent"
           >

@@ -40,9 +40,6 @@ export const TechStack = () => {
               elements={['react', 'next.js', 'tailwind-css']}
             />
           </li>
-          <li>
-            <Tech name="ml" elements={['pytorch']} />
-          </li>
         </ul>
       </div>
     </div>
